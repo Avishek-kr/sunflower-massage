@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.corona{
+    text-align: center;
+    background-color:  #6F1E6D;
+    color: white;
+    font-family: serif;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.corona:hover{
+    background-color:  #5e7a07;
+ 
+}
+.section_first{
+    background-image: url("https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 90vh;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 13vh;
+}
+
+.navigation .left_nav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+} 
+
+.navigation .left_nav li{
+    margin:  0 1rem;
+    color: white;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.navigation .left_nav a{
+    text-decoration: none;
+}
+
+.left_nav .active{
+    font-weight: 700;
+}
+
+
+.navigation .right_nav{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+} 
+
+.navigation .right_nav li{
+    margin:  0 1rem;
+    color: white;
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+
+.navigation .right_nav a{
+    text-decoration: none;
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 60vh;
+    font-size: 3rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -8rem;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 14rem;
+    margin-top: -12rem;
+}
+
+.section_first .header_button{
+    background-color: #6F1E6D;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5rem;
+
+}
+
+.header_button:hover{
+    background-color:#921e90;
+}
+
+.number{
+    /* position: absolute; */
+    /* left: 42rem; */
+    margin-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
